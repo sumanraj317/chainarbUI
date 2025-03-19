@@ -7,7 +7,6 @@ function About() {
         About ChainArb
       </h1>
 
-      {/* Introduction */}
       <section className="mb-16 bg-black p-6 md:p-8 rounded-lg shadow-lg transition-transform duration-300 hover:scale-[1.02] border border-gray-800">
         <h2 className="text-3xl font-semibold text-blue-500 mb-4">Introduction</h2>
         <p className="text-gray-400 leading-relaxed">
@@ -15,7 +14,6 @@ function About() {
         </p>
       </section>
 
-      {/* Our Mission */}
       <section className="mb-16 bg-black p-6 md:p-8 rounded-lg shadow-lg hover:scale-[1.02] transition-transform duration-300 border border-gray-800">
         <h2 className="text-3xl font-semibold text-blue-500 mb-4">Our Mission</h2>
         <p className="text-gray-400 leading-relaxed">
@@ -23,7 +21,6 @@ function About() {
         </p>
       </section>
 
-      {/* Our Vision */}
       <section className="mb-16 bg-black p-6 md:p-8 rounded-lg shadow-lg hover:scale-[1.02] transition-transform duration-300 border border-gray-800">
         <h2 className="text-3xl font-semibold text-blue-500 mb-4">Our Vision</h2>
         <p className="text-gray-400 leading-relaxed">
@@ -31,7 +28,6 @@ function About() {
         </p>
       </section>
 
-      {/* Our Team */}
       <section className="mb-16 bg-black p-6 md:p-8 rounded-lg shadow-lg hover:scale-[1.02] transition-transform duration-300 border border-gray-800">
         <h2 className="text-3xl font-semibold text-blue-500 mb-4">Our Team</h2>
         <p className="text-gray-400 leading-relaxed">
@@ -39,7 +35,6 @@ function About() {
         </p>
       </section>
 
-      {/* Our Technology */}
       <section className="mb-16 bg-black p-6 md:p-8 rounded-lg shadow-lg hover:scale-[1.02] transition-transform duration-300 border border-gray-800">
         <h2 className="text-3xl font-semibold text-blue-500 mb-4">Our Technology</h2>
         <p className="text-gray-400 leading-relaxed">
@@ -47,7 +42,6 @@ function About() {
         </p>
       </section>
 
-      {/* Contact Information */}
       <section className="mb-16 bg-gray-950 p-6 md:p-8 rounded-lg shadow-lg hover:scale-[1.02] transition-transform duration-300 border border-gray-800">
         <h2 className="text-3xl font-semibold mb-4 text-blue-500">Contact Us</h2>
         <p className="text-gray-400 leading-relaxed mb-4">

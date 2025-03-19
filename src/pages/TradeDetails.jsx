@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom';
 function TradeDetails() {
   const { tradeId } = useParams();
 
-  // Mock data for demonstration. In a real application, you would fetch this data from the server based on the tradeId.
   const tradeDetails = {
     1: { id: 1, pair: 'BTC/USD', exchange: 'Binance', profit: '2.5%', details: 'Detailed information about the BTC/USD trade on Binance.', date: '2025-02-21', volume: '500 BTC', status: 'Completed' },
     2: { id: 2, pair: 'ETH/USD', exchange: 'Coinbase', profit: '1.8%', details: 'Detailed information about the ETH/USD trade on Coinbase.', date: '2025-02-22', volume: '1000 ETH', status: 'Pending' },

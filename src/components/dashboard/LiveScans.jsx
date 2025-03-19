@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function LiveScans() {
-  // Mock data for live scans
+  
   const [scans, setScans] = useState([
     { id: 1, pair: 'BTC/USD', exchange: 'Binance', profit: '2.5%', time: '2025-02-11 19:50:00' },
     { id: 2, pair: 'ETH/USD', exchange: 'Coinbase', profit: '1.8%', time: '2025-02-11 19:51:30' },

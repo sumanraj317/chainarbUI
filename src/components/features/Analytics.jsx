@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Bar, Line, Doughnut, Pie } from 'react-chartjs-2';
 import { Chart, CategoryScale, LinearScale, BarElement, LineElement, PointElement, ArcElement, Title, Tooltip, Legend } from 'chart.js';
 
-// Register Chart.js components
+
 Chart.register(CategoryScale, LinearScale, BarElement, LineElement, PointElement, ArcElement, Title, Tooltip, Legend);
 
 const Analytics = () => {
@@ -12,7 +12,7 @@ const Analytics = () => {
   const pieChartRef = useRef(null);
 
   useEffect(() => {
-    // Cleanup function to destroy charts before unmounting
+    
     return () => {
       if (barChartRef.current) {
         barChartRef.current.destroy();

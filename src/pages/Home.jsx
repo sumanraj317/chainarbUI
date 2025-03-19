@@ -61,11 +61,11 @@ function Home() {
         </div>
       </div>
 
-      {/* Image Slider Section */}
+      
       <div className="py-12 bg-gray-900">
         <div className="container mx-auto text-center">
           <Slider {...settings}>
-            {/* Add slider images here */}
+            
           </Slider>
         </div>
       </div>

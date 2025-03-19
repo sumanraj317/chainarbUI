@@ -11,11 +11,9 @@ function Profile() {
   });
 
   useEffect(() => {
-    // Fetch current profile details from the server and set state
-    // For demonstration, we'll use hardcoded values
     const currentProfile = {
-      name: 'John Doe',
-      email: 'john.doe@example.com',
+      name: 'suman raj',
+      email: 'suman.raj@example.com',
       profilePicture: 'https://via.placeholder.com/150',
       twoFactorAuth: true,
     };
@@ -35,8 +33,6 @@ function Profile() {
 
   const handleFileChange = (e) => {
     const file = e.target.files[0];
-    // Handle file upload logic here (e.g., upload to server and get URL)
-    // For demonstration, we'll use a placeholder URL
     const fileUrl = URL.createObjectURL(file);
     setProfile((prevProfile) => ({
       ...prevProfile,
@@ -53,7 +49,6 @@ function Profile() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle profile update logic here
     if (profile.password !== profile.confirmPassword) {
       alert('Passwords do not match');
       return;

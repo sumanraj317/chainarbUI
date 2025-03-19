@@ -24,7 +24,7 @@ const PricingPlans = () => {
 
   return (
     <div className="py-16 px-6 md:px-12 lg:px-20 max-w-6xl mx-auto">
-      {/* Header */}
+   
       <motion.h2
         className="text-5xl md:text-6xl font-extrabold text-center bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text mb-10 drop-shadow-lg"
         initial={{ opacity: 0, y: -20 }}
@@ -33,7 +33,7 @@ const PricingPlans = () => {
         🚀 CEX/DEX Arbitrage Scanner
       </motion.h2>
 
-      {/* Billing Toggle */}
+     
       <div className="flex justify-center mb-12">
         <div
           className="flex bg-gray-800 p-1 rounded-full cursor-pointer transition-all duration-300"

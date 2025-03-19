@@ -30,7 +30,7 @@ const FAQs = () => {
       setTypingText(""); 
     } else {
       setOpenIndex(index);
-      setTypingText(""); // Reset typing effect
+      setTypingText(""); 
       let i = 0;
       const interval = setInterval(() => {
         setTypingText(answer.slice(0, i));
@@ -51,7 +51,6 @@ const FAQs = () => {
         🤖 AI-Powered FAQs
       </motion.h2>
 
-      {/* FAQ Container */}
       <div className="space-y-6">
         {faqsData.map((faq, index) => (
           <motion.div
@@ -61,7 +60,7 @@ const FAQs = () => {
             animate={{ opacity: 1, y: 0, transition: { duration: 0.6, delay: index * 0.1 } }}
             onClick={() => toggleFAQ(index, faq.answer)}
           >
-            {/* Question */}
+            
             <div className="flex justify-between items-center px-6 py-5">
               <h3 className="text-xl font-semibold text-white">{faq.question}</h3>
               <motion.div
@@ -80,7 +79,7 @@ const FAQs = () => {
               </motion.div>
             </div>
 
-            {/* Answer (Collapsible with Typing Animation) */}
+            
             <AnimatePresence>
               {openIndex === index && (
                 <motion.div

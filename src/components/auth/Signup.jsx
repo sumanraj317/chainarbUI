@@ -10,8 +10,6 @@ const Signup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Perform signup logic here (e.g., call an API to register the user)
-    // On successful signup, call login() from AuthContext
     login();
     navigate('/dashboard');
   };

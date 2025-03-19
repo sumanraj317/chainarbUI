@@ -25,7 +25,7 @@ function HowItWorks() {
     <section className="relative py-24 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white">
       <div className="container mx-auto text-center px-6 md:px-12 lg:px-16">
         
-        {/* Section Heading */}
+       
         <motion.h2
           className="text-4xl md:text-5xl font-extrabold tracking-tight mb-16 text-white"
           initial="hidden"
@@ -39,7 +39,7 @@ function HowItWorks() {
           How Our Arbitrage Scanner Works
         </motion.h2>
 
-        {/* Vertical Steps Container */}
+        
         <motion.div
           className="flex flex-col space-y-14 max-w-3xl mx-auto"
           initial="hidden"
@@ -47,7 +47,7 @@ function HowItWorks() {
           viewport={{ once: true, amount: 0.3 }}
           variants={containerVariants}
         >
-          {/* Step 1: Market Scanning */}
+        
           <motion.div
             className="relative p-8 rounded-xl bg-gray-800 border border-gray-700 shadow-lg transition-transform duration-300 hover:scale-105"
             variants={itemVariants}
@@ -62,7 +62,7 @@ function HowItWorks() {
             </p>
           </motion.div>
 
-          {/* Step 2: Arbitrage Opportunity Detection */}
+         
           <motion.div
             className="relative p-8 rounded-xl bg-gray-800 border border-gray-700 shadow-lg transition-transform duration-300 hover:scale-105"
             variants={itemVariants}
@@ -77,7 +77,7 @@ function HowItWorks() {
             </p>
           </motion.div>
 
-          {/* Step 3: Trade Execution */}
+         
           <motion.div
             className="relative p-8 rounded-xl bg-gray-800 border border-gray-700 shadow-lg transition-transform duration-300 hover:scale-105"
             variants={itemVariants}
@@ -92,7 +92,7 @@ function HowItWorks() {
             </p>
           </motion.div>
 
-          {/* Step 4: Profit Automation & Security */}
+          
           <motion.div
             className="relative p-8 rounded-xl bg-gray-800 border border-gray-700 shadow-lg transition-transform duration-300 hover:scale-105"
             variants={itemVariants}
@@ -108,7 +108,7 @@ function HowItWorks() {
           </motion.div>
         </motion.div>
 
-        {/* Call to Action Button */}
+       
         <motion.div
           className="mt-16"
           initial={{ opacity: 0, scale: 0.9 }}

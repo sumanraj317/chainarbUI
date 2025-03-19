@@ -49,7 +49,7 @@ const AIChatbot = () => {
         </button>
       ) : (
         <div className="bg-gray-900 border border-blue-500 rounded-lg shadow-2xl w-80 transition-all duration-300">
-          {/* Chat Header */}
+         
           <div className="bg-blue-600 text-white p-4 rounded-t-lg flex justify-between items-center border-b border-cyan-500">
             <div className="flex items-center space-x-2">
               <FaRobot className="text-xl" />
@@ -71,7 +71,7 @@ const AIChatbot = () => {
             </div>
           </div>
 
-          {/* Chat Messages */}
+        
           {!isMinimized && (
             <>
               <div className="h-96 overflow-y-auto p-4 space-y-4 bg-gray-800 border-b border-cyan-500">
@@ -96,7 +96,6 @@ const AIChatbot = () => {
                 <div ref={messagesEndRef} />
               </div>
 
-              {/* Chat Input */}
               <form onSubmit={handleSendMessage} className="p-4 border-t border-cyan-500">
                 <div className="flex space-x-2">
                   <input

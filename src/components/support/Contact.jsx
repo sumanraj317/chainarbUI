@@ -12,7 +12,7 @@ function Contact() {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-        {/* Contact Form */}
+        
         <div className="bg-white/10 backdrop-blur-lg p-8 rounded-lg shadow-lg border border-white/20 hover:scale-[1.02] transition-transform duration-300">
           <h2 className="text-3xl font-semibold text-white mb-6">Send Us a Message</h2>
           <form className="space-y-6">
@@ -55,7 +55,7 @@ function Contact() {
           </form>
         </div>
 
-        {/* Contact Information */}
+       
         <div className="bg-white/10 backdrop-blur-lg p-8 rounded-lg shadow-lg border border-white/20 hover:scale-[1.02] transition-transform duration-300">
           <h2 className="text-3xl font-semibold text-white mb-6">Contact Information</h2>
           <p className="text-gray-300 text-lg mb-4">

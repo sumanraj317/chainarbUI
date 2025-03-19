@@ -15,7 +15,7 @@ const Checkout = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle the payment processing logic here
+   
     alert('Payment processed successfully!');
   };
 

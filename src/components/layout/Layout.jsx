@@ -5,8 +5,6 @@ import Header from './Header';
 
 const Layout = ({ children }) => {
   const location = useLocation();
-
-  // Hide Header & AIChatbot on ALL "/dashboard/*" routes
   const hideUI = location.pathname.startsWith('/dashboard');
 
   return (

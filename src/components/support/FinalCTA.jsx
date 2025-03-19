@@ -24,7 +24,7 @@ const FinalCTA = () => {
         <span className="font-semibold text-white/90"> Profitable trades won't wait. Why should you?</span>
       </motion.p>
 
-      {/* Buttons */}
+      
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 justify-center">
         <motion.button
           onClick={() => navigate("/signup?source=free")}
@@ -44,7 +44,6 @@ const FinalCTA = () => {
         </motion.button>
       </div>
 
-      {/* Social Proof */}
       <motion.p
         className="mt-6 text-white font-semibold text-lg"
         initial={{ opacity: 0 }}

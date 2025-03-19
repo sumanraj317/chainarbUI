@@ -13,8 +13,6 @@ function Subscription() {
   });
 
   useEffect(() => {
-    // Fetch current subscription details from the server and set state
-    // For demonstration, we'll use hardcoded values
     const currentSubscription = {
       plan: 'premium',
       amount: '99',
@@ -49,7 +47,6 @@ function Subscription() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle subscription update logic here
     const updatedDetails = {
       plan,
       amount,

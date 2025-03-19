@@ -10,7 +10,7 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    login("/dashboard"); // Redirect after login
+    login("/dashboard"); 
   };
 
   return (

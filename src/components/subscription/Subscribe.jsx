@@ -19,7 +19,7 @@ function Subscribe() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle subscription logic here
+    
     const paymentDetails = {
       plan,
       amount,
@@ -27,7 +27,7 @@ function Subscribe() {
       details: paymentMethod === 'upi' ? upiId : paymentMethod === 'paypal' ? payPalEmail : { visaCardNumber, visaCardExpiry, visaCardCvv },
     };
     console.log('Subscribing with:', paymentDetails);
-    // Redirect to confirmation page
+   
     navigate('/subscription-confirmation', { state: { paymentDetails } });
   };
 

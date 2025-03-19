@@ -107,7 +107,6 @@ const Settings = () => {
           </div>
         </div>
 
-        {/* Notification Settings */}
         <div className="bg-white/10 backdrop-blur-lg rounded-xl p-8 shadow-lg mb-10">
           <h3 className="text-2xl font-semibold mb-6"> Notification Settings</h3>
           <div className="space-y-4">
@@ -137,7 +136,6 @@ const Settings = () => {
           </div>
         </div>
 
-        {/* Security Settings */}
         <div className="bg-white/10 backdrop-blur-lg rounded-xl p-8 shadow-lg">
           <h3 className="text-2xl font-semibold mb-6"> Security Settings</h3>
           <div className="flex justify-between items-center mb-6">

@@ -4,7 +4,6 @@ import { FaBell, FaSearch, FaUser, FaSyncAlt, FaChartLine, FaBinoculars, FaBolt,
 import { Bar, Line } from 'react-chartjs-2';
 import { Chart, CategoryScale, LinearScale, BarElement, LineElement, PointElement, Title, Tooltip, Legend } from 'chart.js';
 
-// Register Chart.js components
 Chart.register(CategoryScale, LinearScale, BarElement, LineElement, PointElement, Title, Tooltip, Legend);
 
 const Dashboard = () => {
@@ -21,7 +20,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      // Mock data update every 10 seconds
+      
       const now = new Date();
       const newScanningData = [
         { id: 1, pair: 'BTC/USD', exchange: 'Binance', profit: (Math.random() * 5).toFixed(2) + '%' },
@@ -39,7 +38,6 @@ const Dashboard = () => {
   const handleStartScanning = () => {
     setIsScanning(true);
     setLastScanTime(null);
-    // Mock scanning process
     setTimeout(() => {
       const now = new Date();
       const newScanningData = [
@@ -240,7 +238,7 @@ const Dashboard = () => {
                               <h3 className="text-xl font-semibold">Trade Details for {data.pair}</h3>
                               <p>Exchange: {data.exchange}</p>
                               <p>Profit: {data.profit}</p>
-                              {/* Additional trade details can go here */}
+                              
                             </div>
                           </td>
                         </tr>
@@ -321,7 +319,7 @@ const Dashboard = () => {
               <div className={`p-4 rounded-lg ${darkMode ? 'bg-gray-700' : 'bg-gray-200'}`}>
                 <h3 className="text-xl font-semibold">Simulate an Arbitrage Trade</h3>
                 <p className="text-lg">Select a pair and exchange to simulate the trade.</p>
-                {/* Trade simulation form and logic can be implemented here */}
+                
               </div>
             </div>
             <div className="mt-4">
